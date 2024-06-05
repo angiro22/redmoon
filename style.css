@@ -1,0 +1,35 @@
+body {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    background: #393737;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+#title_container {
+    background: #FF3131;
+    border-radius: 0 0 15px 15px;
+    max-height: 8rem;
+    padding-left: 15%;
+}
+
+#title_container > div.pt-3 {
+    padding-bottom: 5%;
+}
+
+#red_moon_img {
+    width: 8rem;
+}
+
+#sign > a {
+    text-decoration: none;
+    color: #fff;
+}
