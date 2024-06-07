@@ -40,6 +40,10 @@ body {
 #talent_container {
     background-color: rgb(6, 196, 242);
     background-image: linear-gradient(to right, rgba(6, 196, 242, 0), rgba(6, 196, 242, 0.5)), url(Images/talent_show.png);
+}
+
+#talent_container,
+#proposta_container {
     background-repeat: no-repeat;
     background-size: 300px;
     background-position-y: center;
@@ -56,8 +60,14 @@ body {
     scale: 105%;
 }
 
-#talent_container > div {
+#talent_container > div,
+#proposta_container > div {
     margin-left: 20%;
+}
+
+#proposta_container {
+    background-color: rgb(110, 9, 9);
+    background-image: linear-gradient(to right, rgba(110, 9, 9, 0), rgba(110, 9, 9, 0.5)), url(Images/redmoon2.jpg);
 }
 
 .card-title {
