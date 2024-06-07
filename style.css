@@ -44,12 +44,15 @@ body {
     background-size: 300px;
     background-position-y: center;
     background-position-x: -8rem;
+}
+
+.card {
     width: 70%;
     border-radius: 30px;
     transition: 0.3s;
 }
 
-#talent_container:hover {
+.card:hover {
     scale: 105%;
 }
 
