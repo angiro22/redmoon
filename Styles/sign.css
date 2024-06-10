@@ -5,10 +5,25 @@ html, body {
 }
 
 body {
+    position: relative;
+}
+
+body::before {
+    /* Add the image as a pseudo-element before the body to have
+    more control of it, for example adding the opacity */
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url(../Images/sign_background_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.6;
+    pointer-events: none;
 }
 
 form {

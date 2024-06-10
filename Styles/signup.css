@@ -1,5 +1,5 @@
 @media(width <= 800px) {
-    body {
+    body::before {
         background-image: url(../Images/signin_background_mobile.jpg);
     }
 }
