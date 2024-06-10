@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedMoon - Home Page</title>
+    <title>REDMOON | Home Page</title>
 
     <!-- Bootstrap Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
@@ -23,12 +23,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
 
     <!-- Icona -->
     <link rel="icon" href="Images/redmoon.jpg" type="image/icon">
 </head>
-<body>
+<body onload="checkSubscription()">
     <header id="title_container" class="d-flex">
         <div class="pt-3 align-self-center">
             <h1 class="title mb-0 mt-2">REDMOON</h1>
@@ -43,7 +43,7 @@
         <div>
             <!-- Sign in = accedere | Sign Up = Registrare -->
             <div id="sign" class="text-end me-3">
-                <a href="Pages/sign_in.html">Sign In</a> | <a href="Pages/sign_up.html">Sign Up</a>
+                <a href="Pages/signin.html">Sign In</a> | <a href="Pages/signup.html">Sign Up</a>
             </div>
 
             <div id="welcome_container" class="text-center">
@@ -80,13 +80,21 @@
                                 del tuo aiuto per decidere le attività da svolgere, dacci
                                 una mano proponendo le tue idee!
                             </p>
-                            <a href="Pages/talent.html"><button type="button" class="btn btn-outline-light">PROPONI LA TUA IDEA!</button></a>
+                            <a href="Pages/proposta.html"><button type="button" class="btn btn-outline-light">PROPONI LA TUA IDEA!</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- Credits -->
+    <footer class="pt-2">
+        <div class="d-flex flex-column text-center align-items-center">
+            <p>Website powered by: <a href="https://github.com/angiro22">angiro22<br></a>
+            Event organized by: <a href="http://djzippo.rf.gd/?i=1">DJZippo</a></p>
+        </div>
+    </footer>
 
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
