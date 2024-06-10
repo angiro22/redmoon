@@ -11,11 +11,6 @@ body {
     background-position: center;
 }
 
-footer {
-    width: 100%;
-    justify-content: end;
-}
-
 form {
     width: 90%;
     margin: auto;
